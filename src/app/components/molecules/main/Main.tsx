@@ -7,7 +7,6 @@ import { useNavigate } from "react-router-dom";
 
 import "./Main.scss";
 import { ROUTE_NAMES } from "../../../constants/routesConstants";
-import { useState, useEffect } from "react";
 interface MainProps {
   children: React.ReactNode;
 }
