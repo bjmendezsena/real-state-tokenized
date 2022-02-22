@@ -1,0 +1,79 @@
+@import "../../../styles/base/base.scss";
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: $white !important;
+  &-search-icon {
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  .anticon {
+    color: $ligh-text-color !important;
+  }
+
+  &-logo_container {
+    width: min-content;
+    height: min-content;
+    &-logo {
+      width: 70px;
+      height: 70px;
+      object-fit: contain;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+  &-icons_container {
+    transform: translate(0, 5px);
+    .ant-badge-dot {
+      transform: translate(-1px, 0);
+      width: 10px;
+      height: 10px;
+    }
+
+    &-icon {
+      width: 10px;
+      height: 10px;
+      object-fit: contain;
+      font-size: 26px;
+      margin: 0 15px;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+
+  &-avatar {
+    vertical-align: middle;
+    background-color: $red !important;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  &-profile_section {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    text-align: start;
+    height: 100%;
+    transform: translate(0, -5px);
+    &:hover {
+      cursor: pointer;
+    }
+
+    &-title {
+      font-size: 14px;
+      font-weight: bold;
+      height: 10px;
+    }
+    &-subtitle {
+      margin-top: 5px;
+      font-size: 10px;
+      color: $ligh-text-color;
+    }
+  }
+}

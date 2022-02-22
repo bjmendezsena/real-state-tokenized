@@ -1,26 +1,42 @@
 export const ROUTE_NAMES = {
   LOGIN: {
-    name: "login",
+    name: "Login",
     path: "/login",
   },
   REGISTER: {
-    name: "register",
+    name: "Register",
     path: "/register",
   },
-  PORTFOLIO: {
-    name: "portfolio",
-    path: "/portfolio",
+  HOME: {
+    name: "Home",
+    path: "/",
   },
   NUDES: {
-    name: "nudes",
+    name: "Nudes",
     path: "/nudes",
   },
   OPPORTUNITIES: {
-    name: "oportunities",
+    name: "Oportunities",
     path: "/oportunities",
   },
   NOT_FOUND: {
     name: "notFound",
     path: "/notFound",
+  },
+  REPORTS: {
+    name: "Reports",
+    path: "/reports",
+  },
+  PROFILE: {
+    name: "Profile",
+    path: "/profile",
+  },
+  INBOX: {
+    name: "Inbox",
+    path: "/inbox",
+  },
+  SETTINGS: {
+    name: "Settings",
+    path: "/settings",
   },
 };
